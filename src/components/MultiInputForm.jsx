@@ -1,11 +1,7 @@
 import { useState } from "react";
 
 const MultiInputForm = () => {
-  const [data, setData] = useState({
-    username: "",
-    email: "",
-    password: ""
-  });
+  const [data, setData] = useState({username: "",email: "",password: ""});
 
   const handleChange = (e) => {
     const { name, value } = e.target;
