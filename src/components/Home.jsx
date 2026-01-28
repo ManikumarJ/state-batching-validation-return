@@ -19,6 +19,13 @@ const Home = () => {
           </div>
         </Link>
 
+          <Link to="/multi">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow text-center border border-blue-100">
+            <h2 className="text-2xl font-semibold text-blue-700 mb-2">Multi Input Form</h2>
+            <p className="text-gray-600">Multi Input Form Handling </p>
+          </div>
+        </Link>
+
       </div>
     </div>
   );
